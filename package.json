@@ -1,7 +1,7 @@
 {
   "name": "linter-just-say-no",
   "main": "./lib/init",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Avoid using hedge words",
   "repository": "https://github.com/lexicalunit/linter-just-say-no",
   "license": "MIT",
