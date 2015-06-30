@@ -1,0 +1,22 @@
+@import "ui-variables";
+atom-text-editor::shadow .linter-highlight,
+.linter-highlight {
+    &.info {
+
+        // message badges
+        &:not(.line-number) {
+            background-color: @background-color-info;
+            color: white;
+        }
+
+        // gutter
+        .icon-right::before {
+            color: @background-color-info;
+        }
+
+        // highlight
+        .region {
+            border-bottom: 1px dashed @background-color-info;
+        }
+    }
+}

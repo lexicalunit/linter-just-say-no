@@ -1,0 +1,22 @@
+{
+  "name": "linter-just-say-no",
+  "main": "./lib/init",
+  "version": "0.0.0",
+  "description": "Avoid using hedge words",
+  "repository": "https://github.com/lexicalunit/linter-just-say-no",
+  "license": "MIT",
+  "scripts": {
+    "lint": "coffeelint lib"
+  },
+  "engines": {
+    "atom": ">=0.194.0 <2.0.0"
+  },
+  "dependencies": {},
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  }
+}
