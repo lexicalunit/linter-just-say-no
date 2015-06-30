@@ -12,7 +12,6 @@ module.exports =
         'about'
         'almost'
         'apparently'
-        'think'
         'appear'
         'around'
         'basically'
@@ -50,8 +49,8 @@ module.exports =
         'really quite'
         'really'
         'seem'
-        'seems'
         'seemed'
+        'seems'
         'some'
         'sometimes'
         'somewhat'
@@ -59,6 +58,7 @@ module.exports =
         'sort of'
         'suppose'
         'supposedly'
+        'think'
       ]
       items:
         type: 'string'

@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/lexicalunit/linter-just-say-no.svg?branch=master)](https://travis-ci.org/lexicalunit/linter-just-say-no)
 
-Hedge words are used to make statements sound vague, or questions less confrontational. Avoid using hedge words in Markdown documents using this [Atom linter](https://atom.io/packages/linter) plugin.
+Hedge words are used to make statements sound vague, or questions less confrontational. Avoid using hedge words in documents using this [Atom linter](https://atom.io/packages/linter) plugin.
 
 ![hedge](https://cloud.githubusercontent.com/assets/1903876/8438901/461129e6-1f2e-11e5-828f-4b88e1ffffc1.png)
 

@@ -1,5 +1,16 @@
 LinterJustSayNo =
-  grammarScopes: ['source.gfm']
+  grammarScopes: [
+    'source.gfm'
+    'text.git-commit'
+    'text.html.basic'
+    'text.html.erb'
+    'text.html.mustache'
+    'text.plain.null-grammar'
+    'text.plain'
+    'text.tex.latex'
+    'text.tex'
+    'text.todo'
+  ]
   lintOnFly: true
   matchExpression: null
   scope: 'file'
