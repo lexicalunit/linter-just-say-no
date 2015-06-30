@@ -18,5 +18,12 @@
         "1.0.0": "provideLinter"
       }
     }
-  }
+  },
+  "keywords": [
+    "confidence",
+    "hedge",
+    "linter",
+    "professional",
+    "writing"
+  ]
 }

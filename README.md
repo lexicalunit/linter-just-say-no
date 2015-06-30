@@ -10,3 +10,4 @@ Hedge words are used to make statements sound vague, or questions less confronta
 
 1. [Be more confident](http://women2.com/2014/02/17/just-say/)
 1. [Avoid usage in scientific writing](http://www.biomedicaleditor.com/hedging.html)
+1. [Convey facts, not opinions](http://expertedge.aje.com/2013/01/22/editing-tip-of-the-week-avoiding-multiple-hedge-terms/)
