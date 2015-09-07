@@ -65,6 +65,6 @@ module.exports =
 
   activate: ->
     console.log 'activate linter-just-say-no' if atom.inDevMode()
-    require 'atom-package-deps'.install 'linter-just-say-no'
+    require('atom-package-deps').install 'linter-just-say-no'
 
   provideLinter: -> LinterJustSayNoProvider
