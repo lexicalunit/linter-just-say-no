@@ -14,6 +14,7 @@ LinterJustSayNo =
   lintOnFly: true
   matchExpression: null
   scope: 'file'
+  name: 'just-say-no'
 
   buildMatchExpression: ->
     unless @matchExpression
