@@ -2,6 +2,7 @@
 
 [![apm package][apm-ver-link]][releases]
 [![][travis-ci-badge]][travis-ci]
+[![][david-badge]][david]
 [![][dl-badge]][apm-pkg-link]
 [![][mit-badge]][mit]
 
@@ -29,3 +30,5 @@ Hedge words make statements sound vague, or questions less confrontational. Over
 [dl-badge]:         http://img.shields.io/apm/dm/linter-just-say-no.svg
 [travis-ci-badge]:  https://travis-ci.org/lexicalunit/linter-just-say-no.svg?branch=master
 [travis-ci]:        https://travis-ci.org/lexicalunit/linter-just-say-no
+[david-badge]:      https://david-dm.org/lexicalunit/linter-just-say-no.svg
+[david]:            https://david-dm.org/lexicalunit/linter-just-say-no
