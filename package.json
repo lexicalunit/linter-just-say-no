@@ -12,7 +12,7 @@
     "atom": ">=0.194.0 <2.0.0"
   },
   "dependencies": {
-    "atom-package-deps": "^2.0.3",
+    "atom-package-deps": "^3.0.7",
     "resolve": "^1.1.5"
   },
   "package-deps": [
