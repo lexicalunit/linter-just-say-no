@@ -1,6 +1,7 @@
 LinterJustSayNo =
   grammarScopes: [
     'source.gfm'
+    'text.md'
     'text.git-commit'
     'text.html.basic'
     'text.html.erb'
