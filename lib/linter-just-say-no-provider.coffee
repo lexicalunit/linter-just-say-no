@@ -1,3 +1,8 @@
+Array::unique = ->
+  output = {}
+  output[@[key]] = @[key] for key in [0...@length]
+  value for key, value of output
+
 LinterJustSayNo =
   grammarScopes: [
     'source.gfm'
@@ -19,8 +24,23 @@ LinterJustSayNo =
 
   buildMatchExpression: ->
     unless @matchExpression
-      hedgeWords = atom.config.get 'linter-just-say-no.hedgeWords'
-      @matchExpression = new RegExp "\\b#{hedgeWords.join '\\b|\\b'}\\b", 'gi'
+      if not @hedgeWords
+        @loadHedgeWords()
+      @matchExpression = new RegExp "\\b#{@hedgeWords.join '\\b|\\b'}\\b", 'gi'
+
+  loadHedgeWords: ->
+    # lazy load requirements
+    CSON = require 'season'
+    path = require 'path'
+
+    o = CSON.readFileSync(path.join __dirname, '..', 'resources', 'hedges.cson')
+    @hedgeWords = o['hedges']
+    additionalHedgeWords = atom.config.get 'linter-just-say-no.additionalHedgeWords'
+    if additionalHedgeWords.length > 0
+      @hedgeWords = [@hedgeWords..., additionalHedgeWords...].unique()
+    excludeHedgeWords = atom.config.get 'linter-just-say-no.excludeHedgeWords'
+    if excludeHedgeWords.length > 0
+      @hedgeWords = @hedgeWords.filter (word) -> word not in excludeHedgeWords
 
   lint: (textEditor) ->
     return new Promise (resolve, reject) =>
