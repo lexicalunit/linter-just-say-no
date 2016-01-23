@@ -1,8 +1,3 @@
-Array::unique = ->
-  output = {}
-  output[@[key]] = @[key] for key in [0...@length]
-  value for key, value of output
-
 LinterJustSayNo =
   grammarScopes: [
     'source.gfm'
@@ -22,6 +17,11 @@ LinterJustSayNo =
   scope: 'file'
   name: 'just-say-no'
 
+  unique: (array) ->
+    output = {}
+    output[@[key]] = @[key] for key in [0...@length]
+    value for key, value of output
+
   buildMatchExpression: ->
     unless @matchExpression
       if not @hedgeWords
@@ -37,7 +37,7 @@ LinterJustSayNo =
     @hedgeWords = o['hedges']
     additionalHedgeWords = atom.config.get 'linter-just-say-no.additionalHedgeWords'
     if additionalHedgeWords.length > 0
-      @hedgeWords = [@hedgeWords..., additionalHedgeWords...].unique()
+      @hedgeWords = unique [@hedgeWords..., additionalHedgeWords...]
     excludeHedgeWords = atom.config.get 'linter-just-say-no.excludeHedgeWords'
     if excludeHedgeWords.length > 0
       @hedgeWords = @hedgeWords.filter (word) -> word not in excludeHedgeWords
