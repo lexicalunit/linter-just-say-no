@@ -13,7 +13,7 @@ Hedge words make statements sound vague, or questions less confrontational. Over
 # Why?
 
 1. [Be more confident][just-say-no] &mdash; Take Ellen Leanse's advice with [a grain of salt][ellen-leanse] and consider if this reason resonates with you or the goal you're trying to achieve with your words.
-1. [Avoid usage in scientific writing][bio-hedge] &mdash; Note that if you're looking for a more comprehensive writing tips linter check out the fantastic [write-good-linter][write-good].
+1. [Avoid usage in scientific writing][bio-hedge] &mdash; Note that if you're looking for a more comprehensive writing tips linter, check out the fantastic [write-good-linter][write-good].
 1. [Convey facts, not opinions][convey-facts] &ndash; "As a basic rule, try not to include more than one hedge term in a single sentence."
 1. Tami Reiss released an extension for Google Chrome that operates similarly to `just-say-no`. The [Just Not Sorry][just-not-sorry] extension "warns you when you write emails using words which undermine your message".
 
