@@ -55,10 +55,10 @@ tool; I make no value judgements on anyone who uses it.
 [dl-badge]:         http://img.shields.io/apm/dm/linter-just-say-no.svg
 [travis-ci-badge]:  https://travis-ci.org/lexicalunit/linter-just-say-no.svg?branch=master
 [travis-ci]:        https://travis-ci.org/lexicalunit/linter-just-say-no
-[appveyor]:         https://ci.appveyor.com/project/lexicalunit/just-say-no?branch=master
+[appveyor]:         https://ci.appveyor.com/project/lexicalunit/linter-just-say-no?branch=master
 [appveyor-badge]:   https://ci.appveyor.com/api/projects/status/n56obj7r27mcmm4f/branch/master?svg=true
-[circle-ci]:        https://circleci.com/gh/lexicalunit/just-say-no/tree/master
-[circle-ci-badge]:  https://circleci.com/gh/lexicalunit/just-say-no/tree/master.svg?style=shield
+[circle-ci]:        https://circleci.com/gh/lexicalunit/linter-just-say-no/tree/master
+[circle-ci-badge]:  https://circleci.com/gh/lexicalunit/linter-just-say-no/tree/master.svg?style=shield
 [david-badge]:      https://david-dm.org/lexicalunit/linter-just-say-no.svg
 [david]:            https://david-dm.org/lexicalunit/linter-just-say-no
 
