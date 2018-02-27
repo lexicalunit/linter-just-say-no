@@ -63,7 +63,7 @@ tool; I make no value judgements on anyone who uses it.
 [david]:            https://david-dm.org/lexicalunit/linter-just-say-no
 
 [screenshot]:       https://cloud.githubusercontent.com/assets/1903876/8438901/461129e6-1f2e-11e5-828f-4b88e1ffffc1.png
-[just-say-no]:      http://women2.com/2014/02/17/just-say/
+[just-say-no]:      https://www.linkedin.com/pulse/just-say-ellen-petry-leanse/
 [ellen-leanse]:     http://www.businessinsider.com/workplace-advice-for-women-not-to-use-the-word-just-is-terrible-2015-7
 [bio-hedge]:        http://www.biomedicaleditor.com/hedging.html
 [convey-facts]:     http://expertedge.aje.com/2013/01/22/editing-tip-of-the-week-avoiding-multiple-hedge-terms/
