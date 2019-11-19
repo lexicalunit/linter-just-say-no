@@ -66,7 +66,7 @@ tool; I make no value judgements on anyone who uses it.
 [just-say-no]:      https://www.linkedin.com/pulse/just-say-ellen-petry-leanse/
 [ellen-leanse]:     http://www.businessinsider.com/workplace-advice-for-women-not-to-use-the-word-just-is-terrible-2015-7
 [bio-hedge]:        http://www.biomedicaleditor.com/hedging.html
-[convey-facts]:     http://expertedge.aje.com/2013/01/22/editing-tip-of-the-week-avoiding-multiple-hedge-terms/
+[convey-facts]:     https://www.aje.com/arc/editing-tip-avoiding-multiple-hedge-terms/
 [frequent-use]:     http://www.livescience.com/6621-kids-learn-gender-stereotypes-home.html
 [more-often]:       http://www.livescience.com/8698-study-reveals-women-apologize.html
 [write-good]:       https://atom.io/packages/linter-write-good
